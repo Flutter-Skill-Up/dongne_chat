@@ -9,6 +9,21 @@ class HomePage extends StatelessWidget{
           "Dongne_talk"
         ),
       ),
+      body: Center(
+        child: Container(
+          color: Colors.grey,
+          height: 200,
+          width: 200,
+          child: Column(
+            children: [
+              Container(
+                color: Colors.black,
+              ),
+              SizedBox(),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }
